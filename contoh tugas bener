@@ -1,0 +1,26 @@
+<body>	
+< form action=""method="post">
+
+<label for="nama">NAMA<?label>
+<input required type "text" name="txtnim id="nim" placeholder="Masukan nim anda"> <br>
+
+<label for="nama">Nama</label>
+<input required type="text" name="txtnama" id="nama"> <br>
+
+<label for="jk">Jenis Kelamin</label
+<input type="radio"name="jk" id='jk' value="L" > Laki-Laki
+<input type="radio" name="jk" id="jk" value="P"> Perempuan <br>
+
+< label for="jurusan"</label>
+<select name="jurusan" id="jurusan">
+<option value="">Pilih Jurusan</option>
+<option value="D3S1">D3S1</option>
+<option selected value="S1RPL">S1 RPL</option>
+</selected><br>
+
+<label for="catatan"> catatan</labe>
+,textarea name="catatan" id="catatan" cols="50" rows="3" ></textarea>
+
+<input type="submit" name="submit" value="Simpan Data">
+<input type="reset" value"Batal">
+
